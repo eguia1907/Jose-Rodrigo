@@ -32,6 +32,7 @@ public class Questao3 extends AppCompatActivity {
         return  sh.getString(chave, "");
     }
 
+    //Aqui grava os dados inseridos
     public void gravaPreferencia(View view){
         EditText edtGravar = findViewById(R.id.edt_gravar);
         addPreference("teste", edtGravar.getText().toString());
