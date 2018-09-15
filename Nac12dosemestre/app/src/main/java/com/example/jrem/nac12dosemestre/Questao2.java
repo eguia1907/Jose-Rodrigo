@@ -1,5 +1,6 @@
 package com.example.jrem.nac12dosemestre;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -33,10 +34,12 @@ public class Questao2 extends AppCompatActivity {
 
         new DataGetterPost(txtMensagem).execute(url,parameter);
 
+    }
 
 
-
-
+    public void exercicioTres(View view){
+        Intent i = new Intent(Questao2.this, Questao3.class);
+        startActivity(i);
     }
 
 
