@@ -37,6 +37,7 @@ public class Questao3 extends AppCompatActivity {
         addPreference("teste", edtGravar.getText().toString());
     }
 
+    //Aqui recupera o texto guardado
     public void recuperaPreferencia(View view){
         TextView txtMensagem = findViewById(R.id.txt_mensagem);
         txtMensagem.setText(getPreference("teste"));
