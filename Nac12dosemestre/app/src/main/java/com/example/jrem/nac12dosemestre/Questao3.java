@@ -35,7 +35,6 @@ public class Questao3 extends AppCompatActivity {
     public void gravaPreferencia(View view){
         EditText edtGravar = findViewById(R.id.edt_gravar);
         addPreference("teste", edtGravar.getText().toString());
-
     }
 
     public void recuperaPreferencia(View view){
